@@ -1,0 +1,7 @@
+GET http://localhost:4004/srv/CatalogService/Covaccine?$top=2&$filter=ID eq 'A'
+
+###
+POST http://localhost:4004/srv/CatalogService/Covaccine
+Content-Type: application/json
+
+{"ID":"F","Name":"VivekNew","Age":20,"Marks":200}
